@@ -7,7 +7,7 @@ class Task:
     task_id: str
     chat_id: int
     action: str
-    video_file_id: str  # Changed from video_path to video_file_id
+    video_file_id: List[str]  # Changed from video_path to video_file_id
 
 
 class TaskQueue:
